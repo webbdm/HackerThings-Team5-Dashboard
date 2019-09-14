@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: #2F4F4F;
+    font-family: Helvetica;
+}
+
+body h1 {
+    font-family: 'Lexend Zetta', sans-serif;
+    text-align: center;
+}
+
+body h2, h3, h4 {
+    font-family: 'Lexend Zetta', sans-serif;
+    text-align: center;
+}
+
+.grid-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid-wrapper .item{
+    min-height: 500px;
+    min-width: 500px;
+    flex-grow: 1;
+}
