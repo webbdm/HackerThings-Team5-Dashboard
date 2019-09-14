@@ -1,8 +1,11 @@
 body {
+    color: red;
     text-align: center;
-    background-color: #2F4F4F;
+    background-color: black;
     font-family: Helvetica;
-    background: url("blue-gradient.jpg") no-repeat center center fixed;
+    background: url("background.png") no-repeat center center fixed; 
+    background-size: cover;
+    padding: 10px;
 }
 
 body h1 {
@@ -10,9 +13,41 @@ body h1 {
     text-align: center;
 }
 
+
 body h2, h3, h4 {
     font-family: 'Lexend Zetta', sans-serif;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lexend Zetta', sans-serif;
+    text-align: center;
+
+}
+
+.top-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 ;
+}
+
+#team-img{
+    height: 200px;
+    width: auto;
+}
+
+p{
+    font-size: 12px;
+    font-family: 'Lexend Zetta', sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 5px;
+    opacity: .5;
+    color: white;
 }
 
 .grid-wrapper {
@@ -22,7 +57,14 @@ body h2, h3, h4 {
 }
 
 .grid-wrapper .item{
-    min-height: 500px;
-    min-width: 500px;
+    height: 500px;
+    width: 500px;
     flex-grow: 1;
+    margin: 10px;
+}
+
+img{
+    max-height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
