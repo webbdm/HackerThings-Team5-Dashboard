@@ -2,6 +2,7 @@ body {
     text-align: center;
     background-color: #2F4F4F;
     font-family: Helvetica;
+    background: url("blue-gradient.jpg") no-repeat center center fixed;
 }
 
 body h1 {
